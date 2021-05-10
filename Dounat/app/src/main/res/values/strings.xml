@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Toko Dounat</string>
+    <string name="data_pembeli">Data Pembeli :</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="no_hanphone">No Hanphone</string>
+    <string name="no_rekening">No. Rekening</string>
+    <string name="alamat_rumah">Alamat Rumah</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dounat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dounat">
+        <activity android:name=".contack"></activity>
+        <activity android:name=".profile_perusahaan" />
+        <activity android:name=".login" />
+        <activity android:name=".struck" />
+        <activity android:name=".data_pembeli" />
+        <activity android:name=".order_product" />
+        <activity android:name=".product" />
+        <activity android:name=".profile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

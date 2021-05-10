@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d8e3e7"
+    tools:context=".profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:text="Nama Lengkap "
+        android:textColor="@color/black"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/nama1"
+        android:textAlignment="textEnd"
+        android:text="Yozan Leo Lizandra"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama1"
+        android:text="Alamat Email"
+        android:textColor="@color/black"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/email1"
+        android:layout_below="@+id/nama2"
+        android:text="yozans2.yll@gmail.com"
+        android:textAlignment="textEnd"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/jk1"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:text="Jenis Kelamin"
+        android:layout_below="@+id/email1"
+        android:textColor="@color/black"
+        android:background="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/jk2"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:text="Laki-Laki"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/jk1"
+            android:layout_below="@+id/email2"
+            android:textAlignment="textEnd"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tgl1"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:text="Tempat Tanggal Lahir"
+            android:layout_below="@+id/jk1"
+            android:textColor="@color/black"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tgl2"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:text="Painan, 1-Agust-1997"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tgl1"
+            android:layout_below="@+id/jk2"
+            android:textAlignment="textEnd"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/alamat1"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:text="Alamat Rumah"
+            android:layout_below="@+id/tgl1"
+            android:textColor="@color/black"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/alamat2"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:text="Jln.ps.lama Gg.H.Ibong"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/alamat1"
+            android:layout_below="@+id/tgl2"
+            android:textAlignment="textEnd"
+            android:background="#FFFFFF"
+            />
+
+
+
+    </RelativeLayout>
+</LinearLayout>
